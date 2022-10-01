@@ -5,4 +5,5 @@ wget -q https://github.com/txthinking/brook/releases/latest/download/brook_linux
 chmod +x /usr/local/bin/brook
 
 ## Start service
-brook wssserver --domainaddress :443 --password 123456789
+## brook wsserver --listen :${PORT} --password ${passwd}
+## brook wssserver --domainaddress :443 --password 123456789
